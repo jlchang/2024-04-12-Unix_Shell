@@ -46,11 +46,6 @@ in a workshop request yet, please also fill in
 <a href="{{site.amy_site}}/forms/self-organised/">this workshop request form</a>
 to let us know about your workshop and our administrator may contact you if we
 need any extra information.
-If this is a pilot workshop for a new lesson,
-set the `pilot` field to `true` in `_config.yml`.
-For workshops teaching a lesson in The Carpentries Incubator,
-remember to uncomment the `incubator_lesson_site`, `incubator_pre_survey`, and `incubator_post_survey`
-fields in `_config.yml`
 </div>
 
 {% comment %}
@@ -299,12 +294,12 @@ Edit the text to match who can attend the workshop. For instance:
 - This workshop is open to the public.
 - If you are interested in attending this workshop, contact me@example.com
   for more information
-
+{% endcomment %}
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This workshop is open to ....
+    This workshop is intended for designated pilot workshop testers. If you are interested in attending a finalized version of this workshop, contact jlchang@broadinstitute.org for more information
 </p>
-{% endcomment %}
+
 
 <hr/>
 
